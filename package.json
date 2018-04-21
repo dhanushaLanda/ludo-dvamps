@@ -8,7 +8,7 @@
     "nodemon": "nodemon -w src -w server.js -w app.js",
     "linter": "eslint .",
     "coverage": "nyc mocha --recursive",
-    "test": "mocha --recursive"
+    "test": "npm i -g mocha && mocha --recursive"
   },
   "repository": {
     "type": "git",
